@@ -11,5 +11,8 @@ public class AcaiShop {
         CupuacuCream cupuacuCream = new CupuacuCream(tapiocaFlour);
         System.out.println(cupuacuCream.getDescription() + ": " + cupuacuCream.cost());
 
+        AcaiFromAmazonas acaiFromAmazonas = new AcaiFromAmazonas();
+        System.out.println(acaiFromAmazonas.getDescription() + ": " + acaiFromAmazonas.cost());
+
     }
 }
